@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "run": "deno run -A main.ts"
+  },
+  "license": "MIT",
+  "author": ["emarti, Murat Özdemir</dtemarti@gmail.com>"],
+  "name": "@emarti/ipfinder",
+  "version": "1.0.1",
+  "description": "Finds and returns the local and public IP addresses of the machine",
+  "exports": "./mod.ts"
+}
